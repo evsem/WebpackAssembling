@@ -1,13 +1,5 @@
 import "./style.scss"
 import React from "react"
 import { render } from "react-dom"
-import App from "./components/App"
-import { Provider } from "react-redux"
-import { store } from "./reducers/index"
 
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById("root")
-)
+render(<h1>Hello cos|n</h1>, document.getElementById("root"))
