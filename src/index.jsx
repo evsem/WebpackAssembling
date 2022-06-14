@@ -1,10 +1,5 @@
-import "./style.scss"
 import React from "react"
 import { render } from "react-dom"
+import App from "./App"
 
-render(
-  <body>
-    <h1>Hello cos|n</h1>
-  </body>,
-  document.getElementById("root")
-)
+render(<App />, document.getElementById("root"))
